@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        margin: 20px;
+      }
+
+      .card {
+        height: 400px;
+        width: 350px;
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px rgb(221, 221, 220);
+      }
+
+      .card img {
+        height: 250px;
+        width: 350px;
+        object-fit: cover;
+      }
+
+      .card body {
+        padding: 20px;
+      }
+
+      .price {
+        color: red;
+        text-decoration: line-through;
+      }
+
+      .card h3 {
+        font-size: 20px;
+        padding: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div>
+        <div class="card">
+          <div>
+            <img
+              src="https://codeit.com.np/storage/01HQWMHHT5ZK6YKHWHS7ZTM2K8.webp"
+              alt=""
+            />
+          </div>
+          <div class="card-body">
+            <p>
+                Rs 999/- <strong class="price">Rs 16500</strong>
+            </p>
+            <h3>Nuxt 3 Fronted Framework</h3>
+            <p><strong>Started From:</strong>March 18,2024</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
